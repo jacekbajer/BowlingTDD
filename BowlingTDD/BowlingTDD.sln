@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BowlingTDD", "BowlingTDD\BowlingTDD.csproj", "{614327F3-DA40-4FA1-A62B-0FADC07DA4C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BowlingTDD.Tests", "BowlingTDD.Tests\BowlingTDD.Tests.csproj", "{64F99B58-756F-4FA6-8617-1A2631FE9BA1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{614327F3-DA40-4FA1-A62B-0FADC07DA4C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{614327F3-DA40-4FA1-A62B-0FADC07DA4C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{614327F3-DA40-4FA1-A62B-0FADC07DA4C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{614327F3-DA40-4FA1-A62B-0FADC07DA4C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64F99B58-756F-4FA6-8617-1A2631FE9BA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64F99B58-756F-4FA6-8617-1A2631FE9BA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64F99B58-756F-4FA6-8617-1A2631FE9BA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64F99B58-756F-4FA6-8617-1A2631FE9BA1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
