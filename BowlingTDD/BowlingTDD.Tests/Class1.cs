@@ -30,14 +30,16 @@ namespace BowlingTDD.Tests
 
     public class Game
     {
-        public void Roll(int i)
+        private int _score;
+
+        public void Roll(int pins)
         {
-            throw new System.NotImplementedException();
+            _score = _score + pins;
         }
 
         public object Score()
         {
-            throw new System.NotImplementedException();
+            return _score;
         }
     }
 }
