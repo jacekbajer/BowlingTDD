@@ -4,7 +4,7 @@ using NUnit.Framework;
 
 namespace BowlingTDD.Tests
 {
-    public class Class1
+    public class GameTests
     {
         [Test]
         public void When_Less_Than_10_Pins_In_Every_Frame_Result_Is_Sum_Of_All_Rolls()
