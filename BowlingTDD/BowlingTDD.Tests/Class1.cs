@@ -26,6 +26,28 @@ namespace BowlingTDD.Tests
 
             Assert.That(game.Score(), Is.EqualTo(rollList.Sum()));
         }
+
+        [Test]
+        public void When_Maximum_In_One_Frame_Then_Next_Roll_Is_Added_To_Score()
+        {
+            var game = new Game();
+
+            var rollList = new List<int> { 2,8,
+                                           3,7,
+                                           5,1,
+                                           7,1,
+                                           9,1,
+                                           8,2,
+                                           7,3,
+                                           1,0,
+                                           0,4,
+                                           8,2
+            };
+
+            rollList.ForEach(x => game.Roll(x));
+
+            Assert.That(game.Score(), Is.EqualTo(13 + 15 + 6 + 8 + 18 + 17 + 11 + 1 + 4 + 10));
+        }
     }
 
     public class Game
